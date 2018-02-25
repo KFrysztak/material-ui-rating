@@ -1,7 +1,7 @@
 {
-  "name": "material-ui-rating",
+  "name": "material-ui-rating-click",
   "version": "1.4.1",
-  "description": "Material style rating",
+  "description": "Material style rating with click",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TeamWertarbyte/material-ui-rating.git"
+    "url": "git+https://github.com/KFrysztak/material-ui-rating.git"
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   "author": "Wertarbyte <kontakt@wertarbyte.com> (https://wertarbyte.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TeamWertarbyte/material-ui-rating/issues"
+    "url": "https://github.com/KFrysztak/material-ui-rating/issues"
   },
-  "homepage": "https://github.com/TeamWertarbyte/material-ui-rating#readme",
+  "homepage": "https://github.com/KFrysztak/material-ui-rating#readme",
   "devDependencies": {
     "@webpack-blocks/babel6": "^0.4.1",
     "@webpack-blocks/postcss": "^0.4.3",
