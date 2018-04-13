@@ -31,7 +31,7 @@ export default class Rating extends Component {
       return this.props.iconHoveredRenderer ? this.props.iconHoveredRenderer({
         ...this.props,
         index: i
-      }) : this.props.iconHovered
+      }) : (this.props.disabled ? this.props.iconNormal : this.props.iconHovered);
     } else if (filled) {
       return this.props.iconFilledRenderer ? this.props.iconFilledRenderer({
         ...this.props,
