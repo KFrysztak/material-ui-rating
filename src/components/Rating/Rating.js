@@ -27,11 +27,11 @@ export default class Rating extends Component {
     const filled = i <= this.props.value
     const hovered = i <= this.state.hoverValue
 
-    if ((hovered && !filled) || (!hovered && filled)) {
+    if (!this.props.disabled && (hovered && !filled || !hovered && filled)) {
       return this.props.iconHoveredRenderer ? this.props.iconHoveredRenderer({
         ...this.props,
         index: i
-      }) : (this.props.disabled ? this.props.iconNormal : this.props.iconHovered);
+      }) : this.props.iconHovered
     } else if (filled) {
       return this.props.iconFilledRenderer ? this.props.iconFilledRenderer({
         ...this.props,
