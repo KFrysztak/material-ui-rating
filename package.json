@@ -1,6 +1,6 @@
 {
   "name": "material-ui-rating-click",
-  "version": "2.0.0-beta.4",
+  "version": "2.0.0-beta.5",
   "description": "Material style rating with click support",
   "main": "lib/index.js",
   "scripts": {
@@ -28,6 +28,8 @@
   },
   "homepage": "https://github.com/KFrysztak/material-ui-rating#readme",
   "devDependencies": {
+    "@material-ui/core": "^1.0.0-rc.0",
+    "@material-ui/icons": "^1.0.0-rc.0",
     "@webpack-blocks/babel6": "^0.4.1",
     "@webpack-blocks/postcss": "^0.4.3",
     "@webpack-blocks/webpack2": "^0.4.0",
@@ -42,14 +44,12 @@
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
     "gh-pages": "^1.0.0",
-    "material-ui": "^1.0.0-beta.20",
-    "material-ui-icons": "^1.0.0-beta.17",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "react-styleguidist": "^6.0.33"
   },
   "peerDependencies": {
-    "material-ui": "1.x",
+    "@material-ui/core": "1.x",
     "react": "16.x"
   },
   "dependencies": {
