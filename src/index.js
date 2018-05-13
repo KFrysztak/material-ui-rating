@@ -1,1 +1,1 @@
-export * from './components/Rating'
+export { Rating } from './components/Rating'
