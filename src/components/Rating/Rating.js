@@ -15,7 +15,7 @@ const styles = {
  * Material design star rating component for oyur star application!
  * @see [Card UI controls](https://material.io/guidelines/components/cards.html#cards-actions)
  */
-export class Rating extends Component {
+export default class Rating extends Component {
   constructor (props) {
     super(props)
     this.state = {
