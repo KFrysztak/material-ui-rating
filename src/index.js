@@ -1,1 +1,1 @@
-export Rating from './components/Rating'
+export * from './components/Rating'
